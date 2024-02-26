@@ -11,5 +11,5 @@ func main() {
 
 	myGreeting.SayHello()
 
-	fmt.Println("test")
+	fmt.Println("test v0.03")
 }
