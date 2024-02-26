@@ -1,11 +1,15 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/orgTestOneLCC/dep_repo"
 )
 
 func main() {
-	myGreeting := dep_repo.Greeting{}
+	myGreeting := main_one.Greeting{}
 
-	myGreeting.sayHello()
+	myGreeting.SayHello()
+
+	fmt.Println("test")
 }
